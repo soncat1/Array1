@@ -38,6 +38,7 @@ namespace Mang1Chieu
             Console.WriteLine("Mời bạn nhập năm:");
             Year = Int32.Parse(Console.ReadLine());
             Console.WriteLine("Năm {0} có năm âm lịch là:{1} {2}", Year, Can[Year % 10], Chi[Year % 12]);
+            Console.WriteLine("Ốc gà");
 
             #endregion
             Console.ReadKey();
